@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/LoginWall.jpg);
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.formlog{
+    text-align: center;
+    margin: 200px auto;
+    padding: 50px 20px;
+    max-width: 250px;
+    max-height: 500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.788);
+}
+label{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.Logintxt{
+    margin: 50px;
+    padding: 50px;
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+.formbox{
+    margin-top: 30px;
+}
+.remind{
+    color: white;
+}
